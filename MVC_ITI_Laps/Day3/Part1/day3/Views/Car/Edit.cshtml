@@ -1,0 +1,27 @@
+﻿@{
+    var car = (Car)ViewBag.car;
+}
+
+<h1>Edit</h1>
+<form action="/Car/EditSave" method="get">
+
+    Car Number
+    <br />
+    <input type="hidden" name="number" value="@car.Number" />
+    <br />
+    Car Color
+    <br />
+    <input type="text" name="color" value="@car.Color" />
+    <br />
+    Car Model
+    <br />
+    <input type="text" name="model" value="@car.Model" />
+    <br />
+    Car Manufacturer
+    <br />
+    <input type="text" name="manufacturer" value="@car.Manufacturer" />
+    <br />
+    <input type="submit" value="Save" />
+
+</form>
+

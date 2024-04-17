@@ -1,0 +1,17 @@
+﻿
+<h1>Show Product Details</h1>
+<form action="/IphonesController/ShowProductDetails" method="get">
+    <div class="card" style="width: 18rem;">
+  <img src="@ViewData["picture"]" class="card-img-top" alt="iphone">
+  <div class="card-body">
+            <h5 class="card-title">
+                @ViewData["name"]
+                <br /> 
+                @ViewData["price"] = price;
+            </h5>
+            <p class="card-price">@ViewData["description"]</p>
+    <a href="#" class="btn btn-primary">Show Profile</a>
+  </div>
+</div>
+</form>
+

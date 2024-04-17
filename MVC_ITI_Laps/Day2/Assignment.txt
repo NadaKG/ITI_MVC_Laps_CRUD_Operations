@@ -1,0 +1,18 @@
+1. Product Bootstrap Card:
+===========================
+
+* ProductController:
+
+- ShowProductDetails(string Name, string Picture, double Price, string Description) 
+
+	Displays ProductCard with given details(Name, Picture, Price, Description) "QueryString"
+
+
+* Views:
+
+- ProductDetails.cshtml
+	
+
+
+* wwwroot:
+- Add "Images" Folder, that contains products images

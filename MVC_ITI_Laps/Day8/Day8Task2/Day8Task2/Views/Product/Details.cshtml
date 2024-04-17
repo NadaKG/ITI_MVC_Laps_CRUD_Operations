@@ -1,0 +1,12 @@
+﻿@model Day8Task2.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="card">
+    <partial name="_CardPartial" model="@Model" />
+    <a href="@Url.Action("Edit", "Product", new { id = Model.Id })" class="btn btn-warning">Edit</a>
+        <a href="@Url.Action("Delete", "Product", new { id = Model.Id })" class="btn btn-danger">Delete</a>
+    </div>
+</div>

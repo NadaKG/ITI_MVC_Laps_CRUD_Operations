@@ -1,0 +1,51 @@
+﻿@{
+    var id = ViewBag.Id;
+    var name = ViewBag.Name;
+}
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Application</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="margin-left: 150px; margin-top: 60px;">
+    <h1>Index</h1>
+    <br />
+    <form action="/Home/ShowDetails" method="get">
+        ID:&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="id" value="@id" />
+        <br /> <br />
+        Name: <input type="text" name="name" value="@name" />
+        <br /><br />
+       
+            Image:
+            <select name="image">
+            <option value="/images/1.jpg">1.jpg</option>
+            <option value="/images/2.jpg">2.jpg</option>
+            <option value="/images/3.jpg">3.jpg</option>
+            <option value="/images/4.jpg">4.jpg</option>
+            <option value="/images/5.jpg">5.jpg</option>
+            <option value="/images/6.jpg">6.jpg</option>
+            <option value="/images/7.jpg">7.jpg</option>
+            </select>
+       
+        <input type="submit" value="Submit" />
+    </form>
+    </div>
+    <br />
+

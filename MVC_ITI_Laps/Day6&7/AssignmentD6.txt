@@ -1,0 +1,87 @@
+1. Create ASP.NetCore MVC webApp which manages Trainees and thier Tracks and Courses:
+	- Create All CRUD operations to manage your application===========================================
+	- Use EF_Core Code First to create TraineesDB=================================
+	- Use Repositories and apply custom-servive-injection in your application ===================================
+	- Use TagHelpers in your views : <environment>========================================
+	- Try to make your webApp have a nice look by applying different styles and bootstrap, use:"Styling & Bundling" & minification=====================
+	- Use client-side packages to apply Validation on your application=================================================
+
+
+Track shoud have the following properties:
+- int ID
+- string Name
+- Gender Gender
+- string email
+- string MobileNo
+- DateTime Birthdate
+[ForeignKey("Trk")]
+- int TrackID
+- Track Trk
+
+
+Trainee shoud have the following properties:
+- int ID
+- string Name
+- Gender Gender
+- string email
+- string MobileNo
+- DateTime Birthdate
+[ForeignKey("Trk")]
+- int TrackID
+- Track Trk
+
+
+Course shoud have the following properties:
+- int ID
+- string Topic
+- float Grade
+
+
+TraineeCourse:
+- int TraineeID
+- int CourseID
+- IEnumrable<Trainee>? Trainees --> Nullable
+- IEnumrable<Course>? Courses --> Nullable
+
+* Notes: 
+	Apply data annotation on your classes 
+	Track-Trainee relationship [1 : M]
+	Trainee-Course relationship [M : M]
+
+----------------------------------------------------------------------	
+
+2. MVC webApp which Display Products:
+
+	- Create All CRUD operations to manage your Products & Customers===========================
+
+	- Display Product Details as Bootstrap Card in the following Views:=========================================
+		(Index.cshtml, Details.cshtml, Delete.cshtml)
+
+	- Create PartialView named "_CardPartial" to reduce repition of Card Tags
+
+	- Create a ViewModel Class named "Product_Cust_ViewModel", use it with "Details" action in Customer 
+	Controller to display (Customer ID, Customer Name along with All his Products Details)  in action Named "getCustomerOrdersDetails"==========================
+ 
+
+Product shoud have the following properties:
+- ID
+- Name
+- Image
+- Price
+- Description
+  [ForeignKey("Customer")]
+- CustID
+- Customer Customer
+
+
+Customer shoud have the following properties:
+- ID
+- Name
+- Gender
+- email
+- phoneNum
+- IEnumrable<Product>? Products
+
+
+** Apply all necessary DataAnnotation on your classes
+*** It is 1:M relationship (1 Customer -> Many Products)

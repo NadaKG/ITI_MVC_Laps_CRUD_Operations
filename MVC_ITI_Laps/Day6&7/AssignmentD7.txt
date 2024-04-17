@@ -1,0 +1,8 @@
+1. Try to Deploy any previuose MVC Application on IIS, and make your partner try to access your hosted webApp. ( Make sure you and your partner could ping on each othe IPAddress)  
+
+
+2. Display Configuration data in your page (Inject in Controller), and
+Display Environment data in your page (Inject in View) @inject
+
+
+3. Navigate through ur .NetCore wepApp structure and try everything you get in lecture 

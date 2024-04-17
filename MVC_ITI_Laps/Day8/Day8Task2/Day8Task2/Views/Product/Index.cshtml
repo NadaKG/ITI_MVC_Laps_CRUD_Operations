@@ -1,0 +1,49 @@
+﻿@* @model IEnumerable<Day8Task2.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+@foreach (var product in Model)
+{
+    <div class="card mb-3" style="width: 18rem;">
+        <img src="@product.Image" class="card-img-top" alt="@product.Name">
+        <div class="card-body">
+            <h5 class="card-title">@product.Name</h5>
+            <p class="card-text">@product.Description</p>
+            <p class="card-text">$@product.Price</p>
+            <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary">Details</a>
+        </div>
+    </div>
+} *@
+
+@model IEnumerable<Day8Task2.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+    int counter = 0; // Initialize a counter to keep track of the cards
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-3"> <!-- Bootstrap column class for 3 columns per row -->
+                <div class="card" style="width: 18rem;">
+                    <img src="@product.Image" class="card-img-top" alt="@product.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text">$@product.Price</p>
+                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+            counter++; // Increment the counter after each card
+            if(counter % 3 == 0 && counter != Model.Count()) // Check if a row is complete and more products exist
+            {
+                @:</div><div class="row"> <!-- Close the current row and start a new row -->
+            }
+        }
+    </div>
+</div>

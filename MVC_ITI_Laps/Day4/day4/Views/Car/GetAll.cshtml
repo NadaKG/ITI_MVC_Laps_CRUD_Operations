@@ -1,0 +1,70 @@
+﻿@model List<Car>
+
+
+<h1>All Cars</h1>
+
+   <br />
+      @* <a href="/Car/Create" class="btn btn-success" style="margin-left:1000px;"> Create </a> *@
+@Html.ActionLink("Create", "Create", "Car", null, new { style = "margin-left:1000px", @class = "btn btn-success" })
+       <br />
+       <br />
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th> Number</th>
+            <th> Color</th>
+            <th> Model</th>
+            <th> Manufacturer</th>
+            <th> &nbsp;</th>
+            <th> &nbsp;</th>
+
+        </tr>
+        @foreach (var item in Model)
+            {
+             <tr>
+               <td>@item.Number</td>
+               <td>@item.Color</td>
+               <td>@item.Model</td>
+               <td>@item.Manufacturer</td>
+            <td> 
+                @Html.ActionLink("Select", "GetByNum", "Car", new{number = item.Number}, new { @class = "btn btn-primary" })
+
+                </td>
+            <td> 
+                @Html.ActionLink("Edit", "Edit", "Car", new { number = item.Number }, new { @class = "btn btn-secondary" })
+
+            </td>
+            <td> 
+                @Html.ActionLink("Delete", "Delete", "Car", new { number = item.Number }, new {  @class = "btn btn-danger" })
+
+            </td>
+             </tr>
+            }
+
+</table>
+
+
+@functions {
+    void DivContainer(string content, string containerClass = "")
+    {
+        <div class="@containerClass">
+            @content
+        </div>
+    }
+}
+
+ <style>
+        .custom-container {
+            background-color: yellow;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+
+        <div>
+            @{
+
+
+        DivContainer("This is a custom div container with class.", "custom-container");
+            }
+        </div>
+

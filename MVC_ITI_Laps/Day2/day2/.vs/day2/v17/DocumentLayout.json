@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti\\MVC\\Day2\\Lap\\day2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|e:\\iti\\mvc\\day2\\lap\\day2\\day2\\controllers\\iphonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|solutionrelative:day2\\controllers\\iphonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|e:\\iti\\mvc\\day2\\lap\\day2\\day2\\views\\iphones\\showproductdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|solutionrelative:day2\\views\\iphones\\showproductdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|e:\\iti\\mvc\\day2\\lap\\day2\\day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42552688-5D3B-4028-9DB2-E2B03E6B0398}|day2\\day2.csproj|solutionrelative:day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Program.cs",
+              "RelativeDocumentMoniker": "day2\\Program.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Program.cs",
+              "RelativeToolTip": "day2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T20:19:55.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowProductDetails.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Views\\Iphones\\ShowProductDetails.cshtml",
+              "RelativeDocumentMoniker": "day2\\Views\\Iphones\\ShowProductDetails.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Views\\Iphones\\ShowProductDetails.cshtml",
+              "RelativeToolTip": "day2\\Views\\Iphones\\ShowProductDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T20:07:25.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IphonesController.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Controllers\\IphonesController.cs",
+              "RelativeDocumentMoniker": "day2\\Controllers\\IphonesController.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day2\\Lap\\day2\\day2\\Controllers\\IphonesController.cs",
+              "RelativeToolTip": "day2\\Controllers\\IphonesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:51:21.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

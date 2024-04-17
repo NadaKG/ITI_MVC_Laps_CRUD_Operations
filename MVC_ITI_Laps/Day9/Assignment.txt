@@ -1,0 +1,11 @@
+1. Continue with Day8 Assignment (Track-Trainee-Course):
+	
+	- Apply "Identity" in your application (Register, Login, Logout)========================
+	- Apply "AttributeRouting" & "RoutePrefix" on Track controller =======================================
+	- Apply "Route Constraints" on your actions ======================================
+
+
+2. Create MVC webApp "Individual User template" with External Login:
+	
+	- Use any provider (Google , Microsoft, Facebook, Twitter, etc...)
+

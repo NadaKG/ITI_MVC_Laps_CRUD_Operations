@@ -1,0 +1,25 @@
+﻿@model Car
+
+<h1>Create</h1>
+
+
+
+@using (Html.BeginForm("Create", "Car", FormMethod.Post))
+{
+
+    <br />
+    @Html.DisplayNameFor(m => m.Number)
+    @Html.EditorFor(m => m.Number)
+    <br />
+    @Html.DisplayNameFor(m => m.Model)
+    @Html.EditorFor(m => m.Model)
+    <br />
+    @Html.DisplayNameFor(m => m.Color)
+    @Html.EditorFor(m => m.Color)
+    <br />
+    @Html.DisplayNameFor(m => m.Manufacturer)
+    @Html.EditorFor(m => m.Manufacturer)
+    <br />
+    <input type="submit" value="Save" />
+
+}

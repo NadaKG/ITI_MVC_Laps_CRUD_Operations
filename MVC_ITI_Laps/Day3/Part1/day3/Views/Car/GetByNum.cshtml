@@ -1,0 +1,19 @@
+﻿@{
+    var car = (Car)ViewBag.car;
+}
+
+<h1>GetByNum</h1>
+
+<h2>Car Details </h2>
+<br />
+Car Number: @car.Number;
+<br />
+Car Color: @car.Color;
+<br />
+Car Model: @car.Model;
+<br />
+Car Manufacturer: @car.Manufacturer;
+<br />
+
+<a href="/Car/GetAll" class="btn btn-primary">Back To List</a>
+

@@ -1,0 +1,32 @@
+1. Create MVC webApp using EF Core, with 3 Areas (Admin, HR, Finance)
+	
+	- Add links to these 3 areas in the master layout to ease navigation
+
+	- Try to write all views using (TagHelpers)
+
+	- HR department is responsible for Employees management, 
+		So, Add Employee controller, and:
+		
+		* Implement all CRUD operations to be able to manage your employees 
+				
+		* Search:
+			Add "Department dropdown list" to the top of your Index, 
+			to list Employees by Department
+		
+
+
+Employee shoud have the following properties:
+- EmpID
+- Name
+- Password
+- Salary
+- joinDate
+- email
+- phoneNum
+
+
+Department shoud have the following properties:
+- DeptID
+- Name
+- Description
+

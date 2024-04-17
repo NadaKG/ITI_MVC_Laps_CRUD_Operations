@@ -1,0 +1,23 @@
+﻿@model Car
+
+<h1>GetByNum</h1>
+
+<h2>Car Details </h2>
+<br />
+@Html.DisplayNameFor(m=>m.Number)
+@Html.DisplayFor(m=>m.Number)
+<br />
+@Html.DisplayNameFor(m => m.Color)
+@Html.DisplayFor(m => m.Color)
+<br />
+@Html.DisplayNameFor(m => m.Model)
+@Html.DisplayFor(m => m.Model)
+<br />
+@Html.DisplayNameFor(m => m.Manufacturer)
+@Html.DisplayFor(m => m.Manufacturer)
+<br />
+
+@Html.ActionLink("Back To List", "GetAll", "Car", null, new { @class = "btn btn-primary" })
+
+
+

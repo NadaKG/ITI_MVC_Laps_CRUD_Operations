@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\models\\carlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\models\\carlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\views\\car\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\views\\car\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\views\\car\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\views\\car\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|e:\\iti\\mvc\\day3\\lap\\part1\\day3\\views\\car\\getbynum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8FB90F-C315-4A1D-ABA3-4431E5439179}|day3\\day3.csproj|solutionrelative:day3\\views\\car\\getbynum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\Create.cshtml",
+              "RelativeDocumentMoniker": "day3\\Views\\Car\\Create.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\Create.cshtml",
+              "RelativeToolTip": "day3\\Views\\Car\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T22:19:12.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\Edit.cshtml",
+              "RelativeDocumentMoniker": "day3\\Views\\Car\\Edit.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\Edit.cshtml",
+              "RelativeToolTip": "day3\\Views\\Car\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T22:00:13.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Program.cs",
+              "RelativeDocumentMoniker": "day3\\Program.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Program.cs",
+              "RelativeToolTip": "day3\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T21:56:44.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetByNum.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\GetByNum.cshtml",
+              "RelativeDocumentMoniker": "day3\\Views\\Car\\GetByNum.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\GetByNum.cshtml",
+              "RelativeToolTip": "day3\\Views\\Car\\GetByNum.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T21:50:45.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "day3\\Views\\Car\\GetAll.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Views\\Car\\GetAll.cshtml",
+              "RelativeToolTip": "day3\\Views\\Car\\GetAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T21:38:01.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarList.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Models\\CarList.cs",
+              "RelativeDocumentMoniker": "day3\\Models\\CarList.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Models\\CarList.cs",
+              "RelativeToolTip": "day3\\Models\\CarList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T21:28:03.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "day3\\Controllers\\CarController.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Controllers\\CarController.cs",
+              "RelativeToolTip": "day3\\Controllers\\CarController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T21:25:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "day3\\Models\\Car.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day3\\Lap\\Part1\\day3\\Models\\Car.cs",
+              "RelativeToolTip": "day3\\Models\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T21:24:18.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

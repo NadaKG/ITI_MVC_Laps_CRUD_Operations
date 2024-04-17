@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Day8Task1.Models.Trainee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<environment include="Development">
+<h1>Index</h1>
+    <link href="\css\min\MyStyles.min.css" rel="stylesheet" />
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" style="background-color:lavenderblush; color:blueviolet;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trk)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trk.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TraineeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TraineeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TraineeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</environment>
+
+                

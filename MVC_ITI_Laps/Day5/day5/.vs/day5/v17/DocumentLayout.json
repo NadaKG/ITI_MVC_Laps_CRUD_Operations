@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti\\MVC\\Day5\\Lap\\day5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|e:\\iti\\mvc\\day5\\lap\\day5\\day5\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|solutionrelative:day5\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|e:\\iti\\mvc\\day5\\lap\\day5\\day5\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|solutionrelative:day5\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|e:\\iti\\mvc\\day5\\lap\\day5\\day5\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|solutionrelative:day5\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|e:\\iti\\mvc\\day5\\lap\\day5\\day5\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BAB0489-1589-454D-B1BF-1AD714E6E624}|day5\\day5.csproj|solutionrelative:day5\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "day5\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "day5\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T18:15:24.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "day5\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "day5\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T23:59:54.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "day5\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "day5\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T23:55:12.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "day5\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\iti\\MVC\\Day5\\Lap\\day5\\day5\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "day5\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:15:46.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

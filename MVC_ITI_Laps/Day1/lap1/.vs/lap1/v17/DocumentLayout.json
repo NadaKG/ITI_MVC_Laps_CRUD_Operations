@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|e:\\iti\\mvc\\day1\\lap1\\lap1\\webpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|solutionrelative:webpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|E:\\iti\\MVC\\Day1\\lap1\\lap1\\_pagestart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|solutionrelative:_pagestart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|E:\\iti\\MVC\\Day1\\lap1\\lap1\\layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9901619-3C3F-4A79-A01D-EF8686D5F967}|lap1.csproj|solutionrelative:layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Layout1.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\Layout1.cshtml",
+              "RelativeDocumentMoniker": "Layout1.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\Layout1.cshtml",
+              "RelativeToolTip": "Layout1.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAuwGkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:07:08.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_PageStart.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\_PageStart.cshtml",
+              "RelativeDocumentMoniker": "_PageStart.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\_PageStart.cshtml",
+              "RelativeToolTip": "_PageStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:04:48.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebPage1.cshtml",
+              "DocumentMoniker": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\WebPage1.cshtml",
+              "RelativeDocumentMoniker": "WebPage1.cshtml",
+              "ToolTip": "E:\\iti\\MVC\\Day1\\lap1\\lap1\\WebPage1.cshtml",
+              "RelativeToolTip": "WebPage1.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T22:40:29.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

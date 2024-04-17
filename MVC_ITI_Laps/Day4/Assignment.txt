@@ -1,0 +1,8 @@
+1. Re-write yesterday assignment (Car assignment), apply the following changes:
+
+	- Send data from actions to views using "Model property"
+	- re-write all views using "Html Helpers"
+	- Overload (Edit) and (Create) Action ==> use [httpPost]
+	
+
+2. try to make your own Inline Html Helper (any logic you want) and use it. ---> [@functions]

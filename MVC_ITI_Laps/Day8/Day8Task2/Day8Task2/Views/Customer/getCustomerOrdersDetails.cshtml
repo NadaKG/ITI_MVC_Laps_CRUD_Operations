@@ -1,0 +1,33 @@
+﻿@model Product_Cust_ViewModel
+@{
+    ViewData["Title"] = "Customer Orders Details";
+}
+
+<h1>Get Customer Order Details</h1>
+
+
+<div class="customer-details">
+    <h2>Customer: @Model.CustomerName</h2>
+    <p>Customer ID: @Model.CustomerId</p>
+</div>
+
+    <h3>Products List</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>

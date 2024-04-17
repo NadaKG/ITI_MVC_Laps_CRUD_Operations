@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\iti\MVC\Day6\Lap\Day6\bin\Release\net8.0\publish\hello</_PublishTargetUrl>
+    <History>True|2024-04-01T22:59:03.5583907Z;True|2024-04-02T00:52:26.2433478+02:00;True|2024-04-02T00:39:41.6933601+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

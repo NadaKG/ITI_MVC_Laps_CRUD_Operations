@@ -1,0 +1,37 @@
+﻿
+@{
+    var cars = ViewBag.allcars;
+}
+
+<h1>All Cars</h1>
+
+   <br />
+       <a href="/Car/Create" class="btn btn-success" style="margin-left:1000px;"> Create </a>
+
+       <br />
+       <br />
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th> Number</th>
+            <th> Color</th>
+            <th> Model</th>
+            <th> Manufacturer</th>
+            <th> &nbsp;</th>
+            <th> &nbsp;</th>
+
+        </tr>
+        @foreach (var item in (List<Car>) cars)
+            {
+             <tr>
+               <td>@item.Number</td>
+               <td>@item.Color</td>
+               <td>@item.Model</td>
+               <td>@item.Manufacturer</td>
+            <td> <a href="/Car/GetByNum/@item.Number" class="btn btn-primary"> Select </a> </td>
+            <td> <a href="/Car/Edit/@item.Number" class="btn btn-secondary"> Edit </a> </td>
+            <td> <a href="/Car/Delete/@item.Number" class="btn btn-danger"> Delete </a> </td>
+             </tr>
+            }
+
+</table>
+

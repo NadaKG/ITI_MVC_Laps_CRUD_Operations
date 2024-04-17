@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            Name: <input type="text" name="name" />
+            <br />
+            Birthdate: <input type="date" name="birthdate" />
+            <br />
+            <input type="submit" value="Go" />
+            <input type="checkbox" name="check" value="true" /> Is Graduated
+
+            @if (!Request.Form["name"].IsEmpty() && !Request.Form["birthdate"].IsEmpty())
+            {
+                <br /> <div> Hello @Request.Form["name"] </div>
+                 <div> Your Birthdate is @Request.Form["birthdate"] </div>
+
+                var isChecked = Request.Form["check"] == "true";
+
+                if (isChecked)
+                {
+                    <div>Yes, I am Graduated</div>
+                }
+                else
+                {
+                    <div>No, I am not Graduated</div>
+                }
+            }
+        </form>
+    </div>
+</body>
+</html>

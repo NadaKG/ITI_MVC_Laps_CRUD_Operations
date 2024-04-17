@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        #div2 #bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        #div2 #type {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 43%;
+            height:35%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 650px; width: 500px; background-color: bisque; display: inline-block; border: 1px solid;">
+        <div>
+            <form method="post">
+                <label>Choose a background image:</label>
+                <br /> <br /> <br />
+                <select name="bg" style="width:150px;">
+                    <option value="0.jpg">1</option>
+                    <option value="1.jpg">2</option>
+                    <option value="2.jpg">3</option>
+                    <option value="3.jpg">4</option>
+                    <option value="4.jpg">5</option>
+                    <option value="5.jpg">6</option>
+                    <option value="6.jpg">7</option>
+                    <option value="7.jpg">8</option>
+                    <option value="8.jpg">9</option>
+                    <option value="9.jpg">10</option>
+                    <option value="10.jpg">11</option>
+                    <option value="11.jpg">12</option>
+                </select>
+
+                <br /> <br /> <br />
+
+
+                <label>Choose a font color:</label>
+                <br />
+                <select name="fontcolor" style="width:150px;">
+                    <option value="aqua">Aqua</option>
+                    <option value="deeppink">Pink</option>
+                    <option value="hotpink">Hot Pink</option>
+                    <option value="maroon">Maroon</option>
+                    <option value="yellowgreen">Yellow Green</option>
+                </select>
+
+                <br /> <br />  <br /> <br />
+                <hr />
+
+
+
+                <label>Choose a Greeting Type:</label> <br />
+                <label>
+                    <input type="radio" name="greetingT" value="well.gif">
+                    Get Well Soon
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="greetingT" value="bd.jpg">
+                    Birthday
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="greetingT" value="val.bmp">
+                    Valentine
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="greetingT" value="congrats.gif">
+                    Congrats
+                </label>
+                <br /> <br />
+                <br />
+                <input type="checkbox" name="addpic" value="true" /> Add The Picture
+
+                <br /> <br /> <br />
+
+                Enter The Greeting Message Below:
+                <br />
+                <input type="text" name="msg" style="width :280px; height: 70px;" class="text"/>
+                <br /><br /><br />
+
+                <button type="submit" style="width:180px; align-items:center; margin-left:20px;">Preview</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div style="height:650px; width: 500px; background-color:bisque; display:inline-block; border: 1px solid; position:absolute" id="div2">
+        @{
+            if (!Request.Form["bg"].IsEmpty())
+            {
+                string bgimg = "backgrounds/" + Request.Form["bg"];
+                <img src="@bgimg" id="bg" />
+
+                var isChecked = Request.Form["addpic"] == "true";
+                string greetingText = "";
+
+                switch (Request.Form["greetingT"])
+                {
+                    case "well.gif":
+                        greetingText = "Get Well Soon";
+                        break;
+                    case "bd.jpg":
+                        greetingText = "Happy Birthday!";
+                        break;
+                    case "val.bmp":
+                        greetingText = "Happy Valentine's Day!";
+                        break;
+                    case "congrats.gif":
+                        greetingText = "Congratulations!";
+                        break;
+                    default:
+                        greetingText = "Greetings!";
+                        break;
+                }
+
+                if (isChecked)
+                {
+                    if (!Request.Form["fontcolor"].IsEmpty())
+                    {
+                        string color = Request.Form["fontcolor"];
+                        string typeimg = "images/" + Request.Form["greetingT"];
+                    <div class="text" style="color: @color ;position: absolute; top: 25%; left: 30%; font-size: 30px; font-weight: 400">@greetingText</div>
+                    <img src="@typeimg" id="type" />
+                    }
+                }
+                else
+                {
+                    if (!Request.Form["fontcolor"].IsEmpty())
+                    {
+                        string color = Request.Form["fontcolor"];
+                    <div class="text" style="color: @color ;position: absolute; top: 25%; left: 25%; font-size:30px; font-weight:400">@greetingText</div>
+                    }
+                }
+                if (!Request.Form["msg"].IsEmpty())
+                {
+                    string userMessage = Request.Form["msg"];
+                    if (!Request.Form["fontcolor"].IsEmpty())
+                    {
+                        string color = Request.Form["fontcolor"];
+                        <div class="text" style=" color: @color ;position: absolute; top: 70%; left: 30%; font-size:30px;font-weight:400">@userMessage</div>
+
+                    }
+                }
+
+            }
+        }
+    </div>
+</body>
+</html>
